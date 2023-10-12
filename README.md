@@ -3,7 +3,7 @@ This is Personal Project Called NextSnake
 ## What is NextSnake?
 
 NextSnake is a Snake Game that is made with ReactJS and NextJS, which brings the classic game memories from past but with a modern touch.
-I currentyl inspired by Vercel/NextJs theme of their website so i decided to make a game with that theme.
+I currentlly inspired by Vercel/NextJs theme of their website so i decided to make a game with that theme.
 
 ### Total Expected length of this project (all 5 versions)
 

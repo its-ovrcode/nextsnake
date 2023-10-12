@@ -32,8 +32,8 @@ You can install this project by cloning this repository and then running `npm in
 ### Design Part
 
 - [x] Make a Landing / Home Page
-- [ ] Building a UI for the game
-- [ ] Providing a theme for the game
+- [x] Building a UI for the game
+- [x] Providing a theme for the game
 - [ ] Making a logo for the game
 - [ ] Making a favicon for the game
 - [ ] Making a skins for the game
@@ -48,7 +48,7 @@ You can install this project by cloning this repository and then running `npm in
 
 - [x] Make a Landing / Home Page
 - [ ] Finding the best tech stack for the game
-- [ ] Make a canvas for the game
+- [x] Make a canvas for the game
 - [ ] Make a basic snake game
 - [ ] Add total time played in the game
 - [ ] Add a score board

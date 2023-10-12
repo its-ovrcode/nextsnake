@@ -21,4 +21,12 @@
 	.tag {
 		@apply bg-white p-1 font-mono text-sm rounded-md text-black tracking-normal;
 	}
+
+	.cell {
+		@apply inline-block w-[40px] h-[40px];
+	}
+
+	.snake-cell {
+		@apply inline-block w-[40px] h-[40px] rounded-md bg-[#f53535]  z-20;
+	}
 }

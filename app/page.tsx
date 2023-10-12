@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React from "react"
 
 const techStack = [
@@ -50,7 +51,9 @@ const page = () => {
 				Next Snake <span className="tag"> 0.0.1</span>
 			</h1>
 			<div className="flex gap-3">
-				<button className="btn btn-main">New Game</button>
+				<button className="btn btn-main">
+					<Link href="/game">Play Game</Link>
+				</button>
 				<button className="btn btn-outline">Check Scores</button>
 			</div>
 
@@ -71,7 +74,7 @@ const page = () => {
 					<ul className="grid grid-cols-3 place-items-center gap-4  space-y-2">
 						{techStack.map(tech => (
 							<li
-								className="border-2 border-[#101010] transition-all duration-200 ease-linear cursor-pointer h-40 text-left rounded-xl hover:bg-[#101010]    px-8 pt-8 pb-10 col-span-1 flex flex-col  justify-between"
+								className="border-2  transition-all duration-200 ease-linear cursor-pointer h-40 text-left rounded-xl hover:bg-[#101010]    px-8 pt-8 pb-10 col-span-1 flex flex-col  justify-between"
 								key={tech.stack}>
 								<div>
 									<h4 className="text-xl text-white">{tech.stack}</h4>
